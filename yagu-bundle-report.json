@@ -1,0 +1,33 @@
+{
+  "checkpoint": "candidate4 (gameplay pending; local ranking remains finite)",
+  "source": {
+    "file": "yagu-source.zip",
+    "bytes": 22300789,
+    "sha256": "6967e648f4cb28af0603f2059fde0c5e271674ade0e108676b0c976c51d3e87a",
+    "entries": 146
+  },
+  "art_overlay": {
+    "file": "yagu-art-overlay.zip",
+    "bytes": 13330469,
+    "sha256": "3653b21c3a9418db6d42959cc8e6dadb0c8c66ff125dad75638c8eea04b103e5",
+    "entries": 1414
+  },
+  "unique_apk_art_entries": 1408,
+  "brand_delta_entries": 12,
+  "generated_source_images": 17,
+  "native_source_files": 30,
+  "secret_scan_findings": [],
+  "build_layers": [
+    "identity",
+    "privacy-metadata",
+    "merged-art-v1.2",
+    "brand-v1.2",
+    "existing-checker-asset-alias",
+    "native-candidate4"
+  ],
+  "original_apk_included": false,
+  "uploads_or_commits_performed": false,
+  "web_refresh": "Idle-frame heartbeat and 200ms polling; actual audio remains unverified",
+  "runtime_guard": "Default-deny source with local-only verification; actual integration remains unverified",
+  "grpc_discovery_compatibility": "Only exact selected-PID pid_N.ini and pid_N_info.ini are attempted; both mock variants passed; runtime unverified"
+}
