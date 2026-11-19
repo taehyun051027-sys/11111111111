@@ -1,33 +1,1634 @@
 {
-  "checkpoint": "candidate4 (gameplay pending; local ranking remains finite)",
-  "source": {
-    "file": "yagu-source.zip",
-    "bytes": 22300789,
-    "sha256": "6967e648f4cb28af0603f2059fde0c5e271674ade0e108676b0c976c51d3e87a",
-    "entries": 146
-  },
-  "art_overlay": {
-    "file": "yagu-art-overlay.zip",
-    "bytes": 13330469,
-    "sha256": "3653b21c3a9418db6d42959cc8e6dadb0c8c66ff125dad75638c8eea04b103e5",
-    "entries": 1414
-  },
-  "unique_apk_art_entries": 1408,
-  "brand_delta_entries": 12,
-  "generated_source_images": 17,
-  "native_source_files": 30,
-  "secret_scan_findings": [],
-  "build_layers": [
-    "identity",
-    "privacy-metadata",
-    "merged-art-v1.2",
-    "brand-v1.2",
-    "existing-checker-asset-alias",
-    "native-candidate4"
-  ],
-  "original_apk_included": false,
-  "uploads_or_commits_performed": false,
-  "web_refresh": "Idle-frame heartbeat and 200ms polling; actual audio remains unverified",
-  "runtime_guard": "Default-deny source with local-only verification; actual integration remains unverified",
-  "grpc_discovery_compatibility": "Only exact selected-PID pid_N.ini and pid_N_info.ini are attempted; both mock variants passed; runtime unverified"
+  "source_c_sha256": "0f6d03496c02621452295ffb44d9ea7fc2805828f3ccf570d3f423ddbc5bff5b",
+  "art_overlay_version": "2.1-stock-black",
+  "art_overlay_entries": 53,
+  "private_material_selected": false,
+  "bundles": [
+    {
+      "filename": "yagu-source.zip",
+      "bytes": 7854457,
+      "sha256": "cc1bc374c7078d2f7b2c9c9c83d684fabaff362bef8553ef3cc625eef46647ac",
+      "entries": [
+        {
+          "path": ".gitignore",
+          "bytes": 468,
+          "sha256": "ffb8a27a33d3a3269fdb57011fbfb13dd2096705bd1e220f986aa8ab0eb36c70"
+        },
+        {
+          "path": "BUILD.md",
+          "bytes": 13671,
+          "sha256": "8b44553ac13beba246fe9546b61ba1e2c0e7360a205fa110b7ea9f31574bade1"
+        },
+        {
+          "path": "README.md",
+          "bytes": 10373,
+          "sha256": "554b05627163e58db762f304ccf26193caa69b11775e6bcf6c03a7baac4f2e20"
+        },
+        {
+          "path": "analysis/black-uniform/native-defender-palette-map.json",
+          "bytes": 896,
+          "sha256": "435fd26e06d84d3cc695040c3f858e53d427690518637012705b7090fd5a975d"
+        },
+        {
+          "path": "analysis/data/tools/zt1_codec.py",
+          "bytes": 6469,
+          "sha256": "5570685bf211557ec13a956dd3fc34353612c1d9dc96b24806b99d8b4c8e215b"
+        },
+        {
+          "path": "analysis/world-career/docs/WORLD_CAREER_DESIGN.md",
+          "bytes": 6411,
+          "sha256": "2f0df4727b795e63be47bdce784df545cc7e5e9a6578d00e12e57b8de68073f9"
+        },
+        {
+          "path": "analysis/world-career/docs/WORLD_CAREER_FINDINGS.md",
+          "bytes": 8418,
+          "sha256": "bd94fe484f1892ff449cd6d6814755b9abfa58dfe4810a79ccded7830ee2bb43"
+        },
+        {
+          "path": "analysis/world-career/tools/disassemble_progression.py",
+          "bytes": 3569,
+          "sha256": "967b67e7b877b53842168638f1dbb8e7cdf3a73db4a6f11dd94575989890e8dc"
+        },
+        {
+          "path": "analysis/world-career/tools/original_audit.py",
+          "bytes": 5865,
+          "sha256": "467191b386f700a71224ccede10f350f1f307e7530f567e4fc2ed80c47c31064"
+        },
+        {
+          "path": "build-work/android/STREAM_BRIDGE.md",
+          "bytes": 3285,
+          "sha256": "a334e74dacf8e299b1b2878d7623bd3489dd98ffc05ddbe9051975a546fc5195"
+        },
+        {
+          "path": "build-work/android/advance_known_rewards.py",
+          "bytes": 2601,
+          "sha256": "787e7edb7cd3a426651636a8301f4ee0a3e108ef6bec8fa963560b16a48f176b"
+        },
+        {
+          "path": "build-work/android/apk_android_inspect.py",
+          "bytes": 10640,
+          "sha256": "f392574a4a08c270e105838a27bf853f9fbaad53421e122b8b30a1ea460b56a3"
+        },
+        {
+          "path": "build-work/android/bridge_probe.py",
+          "bytes": 2748,
+          "sha256": "3f3c1ff4384735a728f1f5579ffda614660827405ceaa7ec5ac9908ed23a752d"
+        },
+        {
+          "path": "build-work/android/current-runtime-public.json",
+          "bytes": 8188,
+          "sha256": "ace0945873cb5b22e0daabc0cad662b52675b323fb022778f30ce6ce13f6023f"
+        },
+        {
+          "path": "build-work/android/current-runtime-public.md",
+          "bytes": 5674,
+          "sha256": "ad9488e3ce2195e6fd999adf5548512c4a0f759e149adeae6cd40b84f3471d99"
+        },
+        {
+          "path": "build-work/android/emulator32-recovery.json",
+          "bytes": 437,
+          "sha256": "8c7deee107d971167c7a0058007f81d7a824e8a0d704ef87eda5aff5682933a8"
+        },
+        {
+          "path": "build-work/android/emulator_session.py",
+          "bytes": 15592,
+          "sha256": "466011950d763de132ac1840a34d96c8419041e0b6f520ab659651e1096abf8b"
+        },
+        {
+          "path": "build-work/android/final7-postgame-rewards-b2.json",
+          "bytes": 181,
+          "sha256": "04623dec19e4a4760066ec8b2f681ef7c6c4ea412c7636fd2cdfebd1fb0da5a3"
+        },
+        {
+          "path": "build-work/android/grpc_bridge_driver.py",
+          "bytes": 11229,
+          "sha256": "0cd5576ef4aba2847ab8fd4d880f7e1cbb4a353109b9b31fe095150ac3e06881"
+        },
+        {
+          "path": "build-work/android/grpc_device.py",
+          "bytes": 3517,
+          "sha256": "8127f3e9a3ecb93836227ee2220a4d07d3054b727f7b720239f71e1fed3cbc0c"
+        },
+        {
+          "path": "build-work/android/offline-checker-compat-report.json",
+          "bytes": 811,
+          "sha256": "1a10f87a926cda8301f02f47ad9576e055560d252b95070ef2f1286061faeae7"
+        },
+        {
+          "path": "build-work/android/pitch_observed.py",
+          "bytes": 3958,
+          "sha256": "9e887f5b7c4dc2296f261e332983a351c198fca7cd52a35bda57ec07ae367050"
+        },
+        {
+          "path": "build-work/android/pitch_sequence.py",
+          "bytes": 1100,
+          "sha256": "f569028311d8daaa979f061615b9b1c29cb1ac7e167cbd936d32e5f65d187460"
+        },
+        {
+          "path": "build-work/android/postgame-reward-actions.json",
+          "bytes": 1431,
+          "sha256": "5110656782b049a7017df6d43f1e27916ac0d007b0685bf54d4d833f5d0cf620"
+        },
+        {
+          "path": "build-work/android/postgame-story-actions.json",
+          "bytes": 147,
+          "sha256": "263127d969c8496172079c5a31d2587869d8909171927e48a9aed73467733928"
+        },
+        {
+          "path": "build-work/android/prepare_android_labels.py",
+          "bytes": 4657,
+          "sha256": "395d0c23a315a9385ee9e28129833417a30c48aaa87301f23e95b50388ea9ad0"
+        },
+        {
+          "path": "build-work/android/prepare_checker_asset_compat.py",
+          "bytes": 3411,
+          "sha256": "70db636dbbed750f10cd90c247b62077564e6e8b68efb8def30d2b96cc773a7a"
+        },
+        {
+          "path": "build-work/android/prepare_privacy_metadata.py",
+          "bytes": 5269,
+          "sha256": "cf065a911862b1660abf84c8d93ef8cea7223007bb9392940d6f00c89e30ee6b"
+        },
+        {
+          "path": "build-work/android/prepare_side_by_side.py",
+          "bytes": 7279,
+          "sha256": "1a905e2b0693b910d0cdc204b08a23b7b964df48235db62a697474b7505a9a61"
+        },
+        {
+          "path": "build-work/android/prepare_test_avd.py",
+          "bytes": 1804,
+          "sha256": "7305b7be9c40e86961107e9f27aced6ca53834912f6ec45b3cffc78f482834e4"
+        },
+        {
+          "path": "build-work/android/publisher-proxy-tests.json",
+          "bytes": 434,
+          "sha256": "a1df3e4f0fb8e646df407febfb55fccc74cb6dbef9ec84d296c0cc4e72febc55"
+        },
+        {
+          "path": "build-work/android/publisher_proxy.py",
+          "bytes": 10258,
+          "sha256": "562f1457fab375c16d7d15172b820deb7ca55c55279e6c7069b23875ab304955"
+        },
+        {
+          "path": "build-work/android/record_game_frames.py",
+          "bytes": 2262,
+          "sha256": "2b1f789482cfdc2495f7318b0b85646c9d606ab3ec562a09984d7241b3f4ce06"
+        },
+        {
+          "path": "build-work/android/recovery-preflight4.json",
+          "bytes": 324,
+          "sha256": "87c0e1ba18e51f7c5982849a9de921a80f1f2ce20a895f400e1a0dd87ee2964e"
+        },
+        {
+          "path": "build-work/android/renderer-compat-runtime.json",
+          "bytes": 602,
+          "sha256": "1c5a2c141556d5eaae15cc928650bd3f024a1ffc37240478000f948c010a5f89"
+        },
+        {
+          "path": "build-work/android/repackage_sign.py",
+          "bytes": 9134,
+          "sha256": "4aef9d92170e95160dff3828b64dbb69c0217a404182d2f04a2c9a4d4c2e010e"
+        },
+        {
+          "path": "build-work/android/restore_toolchain.py",
+          "bytes": 4569,
+          "sha256": "981a2514099741982df26da60a1d1d26749c8d70fb2e53589d4a6328a99e82b3"
+        },
+        {
+          "path": "build-work/android/restrict_guest_network.sh",
+          "bytes": 876,
+          "sha256": "86ba59cf1be2409979e1ee89ac44c4a934301cd9eec44d9997d2034b865b3e03"
+        },
+        {
+          "path": "build-work/android/runtime-recovery-2026-11-19.json",
+          "bytes": 1921,
+          "sha256": "8d09adbc21f1d488baef9603b29b124c7109afd7666bc697db6d7a0a47c7bc37"
+        },
+        {
+          "path": "build-work/android/signer-public-hash-analysis.json",
+          "bytes": 585,
+          "sha256": "683b514e346fd524674c479aab5a911bdfe161a92d385f3688a024636840d2a6"
+        },
+        {
+          "path": "build-work/android/signer_certificate_hash.py",
+          "bytes": 2364,
+          "sha256": "9b70c835bf1dfc7bef11e339a300991cec1553db41bf9a20b589fb181ed797a8"
+        },
+        {
+          "path": "build-work/android/swing_observed.py",
+          "bytes": 3055,
+          "sha256": "c669f8d50d2d43f6076bc38002726a5829b869a610692155ec34e7df8573af01"
+        },
+        {
+          "path": "build-work/android/test_grpc_discovery.py",
+          "bytes": 2154,
+          "sha256": "ec7d36bdde1de5050c2444c859feff4770bdcbef5b07b8e3e4564a04d917235d"
+        },
+        {
+          "path": "build-work/android/test_publisher_proxy.py",
+          "bytes": 4144,
+          "sha256": "ddcbe6fc5e311570c698d38a04e7874c0362ecdc278e366181c42765a41dabf0"
+        },
+        {
+          "path": "build-work/android/toolchain-recovery.json",
+          "bytes": 1501,
+          "sha256": "776d9cea99cd901b4974b7accd43ddd79244b3998bc043c1791d183de77fb240"
+        },
+        {
+          "path": "build-work/android/yagu-local-public-certificate.der",
+          "bytes": 1049,
+          "sha256": "8cd1b65f178f20e33891adc2702ca235b87866cc9235965fa9c8ec63e3d5473f"
+        },
+        {
+          "path": "build-work/art/README.md",
+          "bytes": 3727,
+          "sha256": "e8c366b74831963bdf081cf24fdb5a60d3139c81b1890c0eaa72cc1240956ceb"
+        },
+        {
+          "path": "build-work/art/art_overlay_manifest.json",
+          "bytes": 32947,
+          "sha256": "51b193aa499ea4a5f2f4cd34b4d15500796d21ad9932780ec33453b743f8d1b0"
+        },
+        {
+          "path": "build-work/art/asset_consumption.json",
+          "bytes": 834,
+          "sha256": "ffe960b7c1d5932449545cab653e4db8a643377102bf5d19501d82e097b76149"
+        },
+        {
+          "path": "build-work/art/brand-stock-black.json",
+          "bytes": 7162,
+          "sha256": "ad486217386f913beaa7392837aa5c8d27ff665573f99350ec6c2959a9c37faf"
+        },
+        {
+          "path": "build-work/art/brand_delta_v1.2.json",
+          "bytes": 7162,
+          "sha256": "ad486217386f913beaa7392837aa5c8d27ff665573f99350ec6c2959a9c37faf"
+        },
+        {
+          "path": "build-work/art/defender_reference_0_slots.json",
+          "bytes": 6559,
+          "sha256": "680834c457290246c6afde7aeb669df628e184b3b3d81fe46db6bd40ff9f46b2"
+        },
+        {
+          "path": "build-work/art/defender_reference_1_slots.json",
+          "bytes": 6577,
+          "sha256": "97b81ff52a4ff9c6743aa8f5671b94fb62dbccdda6f127df7f3a2a8b2baa97f7"
+        },
+        {
+          "path": "build-work/art/event_record_periods.json",
+          "bytes": 34925,
+          "sha256": "4e390cb551ab53be2c101d2ac543f99313803ad2e24fc9327f14e28bd3085be7"
+        },
+        {
+          "path": "build-work/art/faces_reference_slots.json",
+          "bytes": 2195,
+          "sha256": "6e1b14dd4b3a0958559807384b1ea08108e595b94456905ed8a77ecf8dfd1f95"
+        },
+        {
+          "path": "build-work/art/game_run_part_paths.json",
+          "bytes": 2489,
+          "sha256": "4c7a6697e3c4e55081091e0bbff0691a566b2183335c08c8163af00c69b1fe8a"
+        },
+        {
+          "path": "build-work/art/generated/crests.png",
+          "bytes": 1839531,
+          "sha256": "d96b4d40c474787653799f73619bfcfa1e1f96410694cd00b4e3cf0016fc5c20"
+        },
+        {
+          "path": "build-work/art/generated/extra_crests.png",
+          "bytes": 1817481,
+          "sha256": "9de729df5e649535ade5a6b13609ebd4bf0d88eb5877d02ea56347de142e7053"
+        },
+        {
+          "path": "build-work/art/generated/launcher_icon.png",
+          "bytes": 1986065,
+          "sha256": "37482b18cde00e000ae17e5425ad14cea031dc6325294a7485f50850fde9ce0c"
+        },
+        {
+          "path": "build-work/art/generated/title_logo.png",
+          "bytes": 1886757,
+          "sha256": "cc1dc126b32b0419481566448ab702aaa271d74cd5dbdc7afcf86e90a1a8a1e3"
+        },
+        {
+          "path": "build-work/art/team_and_player_identity.json",
+          "bytes": 5699,
+          "sha256": "88ddc737a4aef1711bba7de6d54bbb85b1b1486fdcd32527ccc53ae172040bf7"
+        },
+        {
+          "path": "build-work/art/team_image_rects.json",
+          "bytes": 7594,
+          "sha256": "f23b651fbb23d9e78f97bd9825a8fdd0e28ad079e4cb3f9dea4c23b1ec91c378"
+        },
+        {
+          "path": "build-work/art/tools/assemble_art_overlay.py",
+          "bytes": 2348,
+          "sha256": "983c2ff5438f557418b5b4c617edafedd4919403853a176606b4910179120bd2"
+        },
+        {
+          "path": "build-work/art/tools/build_art_overlay.py",
+          "bytes": 14738,
+          "sha256": "46f85b1651e75beb109539979af8df02740eeb25c676a865feb364414dd184af"
+        },
+        {
+          "path": "build-work/art/tools/make_brand_delta.py",
+          "bytes": 5439,
+          "sha256": "55188c49a0370f45d9fba2220fc28cd670167589644d16e5d1bb0bb3dc4e1dd5"
+        },
+        {
+          "path": "build-work/art/tools/zt1_codec.py",
+          "bytes": 6469,
+          "sha256": "5570685bf211557ec13a956dd3fc34353612c1d9dc96b24806b99d8b4c8e215b"
+        },
+        {
+          "path": "build-work/art/uniform_palette_consumers.json",
+          "bytes": 8402,
+          "sha256": "a251b656af2c5d2eeede18f3027ad2f6f30834a0f143eecb45eb5b884e8e9428"
+        },
+        {
+          "path": "build-work/art/uniform_reference_slots.json",
+          "bytes": 8456,
+          "sha256": "b76e7e185aa60d314c79fcfbc9335fcfbb2859034af2c2a60695c63b558000ad"
+        },
+        {
+          "path": "build-work/native/ELITE_WORLD_POLICY.md",
+          "bytes": 10778,
+          "sha256": "a12c0bb20238c70af3889f5ab5b6f787892933e02f0d987f2746671ebd1f553b"
+        },
+        {
+          "path": "build-work/native/EQUIPMENT_LEVEL_POLICY.md",
+          "bytes": 5416,
+          "sha256": "262b588d7ed34002d278bee8d1f392abe58afde0991c8f5be1a5eecbe26a8299"
+        },
+        {
+          "path": "build-work/native/EVERY_GAME_POLICY.md",
+          "bytes": 4929,
+          "sha256": "c3521d7dd652bd0b11f8de3b4b5b6d55612cf6b831105bd6b8614364a272a347"
+        },
+        {
+          "path": "build-work/native/HONORS_AND_AWARD_UI.md",
+          "bytes": 6254,
+          "sha256": "37ae837eda16290168c56d166fb6b4d4dd05e3676349f995c6a55e939489d1ea"
+        },
+        {
+          "path": "build-work/native/LOCAL_CATALOG_POLICY.md",
+          "bytes": 8784,
+          "sha256": "f79c0dfe7f3e190a4b9d9f3073591c559828b06ec24c644fa0b66b1915ac93cc"
+        },
+        {
+          "path": "build-work/native/MENTAL_DUEL_MAP.md",
+          "bytes": 3718,
+          "sha256": "bbc21852c670bb80eec734586c535ab252a83f406f952623da5204cce1a99d0f"
+        },
+        {
+          "path": "build-work/native/SKILL_POINTS_MAP.md",
+          "bytes": 4826,
+          "sha256": "e3f9e77687a288a4b6110a345b8dc479218cd4a6a74308519d9549cd117ada08"
+        },
+        {
+          "path": "build-work/native/SPECIAL_USES_MAP.md",
+          "bytes": 3543,
+          "sha256": "31c36fe811aef0749e1ee4a38777af741c30d1e70ac680a1bbd9d6a428345eda"
+        },
+        {
+          "path": "build-work/native/TEAM_MEAN_MAP.md",
+          "bytes": 3737,
+          "sha256": "764b3f9dba33d98b5dc6717e11aa6e40cf036866979c6c1a64004fe5c8dee895"
+        },
+        {
+          "path": "build-work/native/WALLET_POLICY.md",
+          "bytes": 8600,
+          "sha256": "527f78d4c0eb88cf79810411a79fb5f6807a9756ce85c40786876868c499f7ba"
+        },
+        {
+          "path": "build-work/native/WALLET_UI_POLICY.md",
+          "bytes": 4589,
+          "sha256": "4377d2d2ea0eb6267c35d7e8170bcd072bfee6d36568bc14027848279d6e26fd"
+        },
+        {
+          "path": "build-work/native/award_record_payload.inc",
+          "bytes": 2687,
+          "sha256": "3d65b7254b4f11eaa6f2829878055f6a09b03f4ebf923b04b0235d5746021162"
+        },
+        {
+          "path": "build-work/native/award_record_policy.py",
+          "bytes": 2060,
+          "sha256": "f37ebe8509ff2f101dbfd48a41e497d128ed7fad70626b1bf3898e26bd343500"
+        },
+        {
+          "path": "build-work/native/award_record_ui.py",
+          "bytes": 3499,
+          "sha256": "b38eb3b4a853f353708b617692e65d34f1bdd951a24016d6b7a76baeac893ba9"
+        },
+        {
+          "path": "build-work/native/award_record_ui_verification.json",
+          "bytes": 4310,
+          "sha256": "1208d44d4eb4824e9f4e349a45a7de8c1d91a832c17ad1ae740e587dc5896d47"
+        },
+        {
+          "path": "build-work/native/batter_presence_hooks.py",
+          "bytes": 746,
+          "sha256": "7e0751f9e93ef3d53dd8716186d6fee9d21d2be8c5270d8565fb4f3c263a442e"
+        },
+        {
+          "path": "build-work/native/batter_presence_payload.inc",
+          "bytes": 1453,
+          "sha256": "15fd433340007961aa0287ed85cfe6e27c9bf92727ee66f43314ca919558e053"
+        },
+        {
+          "path": "build-work/native/batter_presence_policy.py",
+          "bytes": 2973,
+          "sha256": "ce0d25ee024ffd6263e5684ccd5ba9ef48adbfa831fd8ce091c3641120cf3e19"
+        },
+        {
+          "path": "build-work/native/batter_presence_verification.json",
+          "bytes": 3087,
+          "sha256": "0ec8e213f949fbcd5283b6e87045ca2506219b2d1a7b6d1766aa77df75d1840f"
+        },
+        {
+          "path": "build-work/native/batting_rescue_hooks.py",
+          "bytes": 2127,
+          "sha256": "36f94f491970ba2077c0938af83aed1ba5674421f978af36d023d286d38354ff"
+        },
+        {
+          "path": "build-work/native/batting_rescue_payload.inc",
+          "bytes": 2275,
+          "sha256": "77db22b2df105179cf24e89221617eb8fb1b3cafa10e3e6beebc4761c53c99b5"
+        },
+        {
+          "path": "build-work/native/batting_rescue_policy.py",
+          "bytes": 3654,
+          "sha256": "90bf18cd00a37e4cd40761cdebecf138fe61ebf5b85e6d3dfbf8cd6972abc9cf"
+        },
+        {
+          "path": "build-work/native/batting_rescue_verification.json",
+          "bytes": 2332,
+          "sha256": "77ab9d87d3df5955a4db67b7093932f5b4c8fb35423755530e5c05936c256c70"
+        },
+        {
+          "path": "build-work/native/candidate3_native_report.json",
+          "bytes": 3161,
+          "sha256": "c3de24dc1250e0ca5379619f959d611a533711155b05482f86902d3900e42975"
+        },
+        {
+          "path": "build-work/native/candidate3_native_report.md",
+          "bytes": 9309,
+          "sha256": "521d7828f73422cb146270ac521fee4e8396da44bc86bac59b89db5b28828f57"
+        },
+        {
+          "path": "build-work/native/candidate4_native_report.json",
+          "bytes": 101368,
+          "sha256": "2d9a24ab91408fd325772db9fa7e3faaa19d7754f2f05bce070c2d70b768984c"
+        },
+        {
+          "path": "build-work/native/candidate4_native_report.md",
+          "bytes": 8461,
+          "sha256": "8c94c7f9cc28bdc2832f36918b982a3931d1ea825831f068fbeefd3f29281292"
+        },
+        {
+          "path": "build-work/native/career_ability_ui.py",
+          "bytes": 4529,
+          "sha256": "d6513075133c6e21d5ffa87f49abe0e2911dd300c2a8dbe1a7a2e1df80262837"
+        },
+        {
+          "path": "build-work/native/career_ability_ui_verification.json",
+          "bytes": 12246,
+          "sha256": "989ed90bdffb5ee6936821cb26fcd6e14dd51e3c0c9829ac7045c89d7e6f1c5a"
+        },
+        {
+          "path": "build-work/native/career_resource_ui.py",
+          "bytes": 9479,
+          "sha256": "f9a1dc64ce5a8bfb830c563749c40c28a7354a8042318e2e039e112f3fbe56d4"
+        },
+        {
+          "path": "build-work/native/career_resources_verification.json",
+          "bytes": 2217,
+          "sha256": "0ce4ec52e8112223415e731743bf1fdb3213f16a0d1d57a4dc60e5df433932fc"
+        },
+        {
+          "path": "build-work/native/debug_sp_learning.py",
+          "bytes": 1400,
+          "sha256": "19e63efe0a5fca2575ba696c46a0e50991e0f60e404c8434798edcad2e5bb47c"
+        },
+        {
+          "path": "build-work/native/defender_hooks.py",
+          "bytes": 3184,
+          "sha256": "f40c7976d1bb0c06d2e913b9f72793869070a05e0a63b9404085bce352cc7187"
+        },
+        {
+          "path": "build-work/native/defender_paths.h",
+          "bytes": 2804,
+          "sha256": "c0d2078335304229822dea89942ad5ca62a14b73848080407cef48d968064290"
+        },
+        {
+          "path": "build-work/native/elite_level_only_verification.json",
+          "bytes": 5033,
+          "sha256": "181fe7145a54a5f7fb50c49f20ba2670e7aa2e37df0532a94db25ff488a3cc3d"
+        },
+        {
+          "path": "build-work/native/elite_world_policy.h",
+          "bytes": 2472,
+          "sha256": "a3fbb68bb2f875b6ec2ec40de31c292293493510d3d7b8264b88b00e302bcc7a"
+        },
+        {
+          "path": "build-work/native/elite_world_policy.py",
+          "bytes": 4238,
+          "sha256": "27a500682341fab444b321be8d462cc15a3246ed82c06c6e9051495e6fb6d14f"
+        },
+        {
+          "path": "build-work/native/elite_world_verification.json",
+          "bytes": 8067,
+          "sha256": "e80ae8f64e15694661f9e8d7987de10ef2b7efcde0812ea3bc652a685eadf389"
+        },
+        {
+          "path": "build-work/native/elite_world_verification_arm64-v8a.json",
+          "bytes": 3605,
+          "sha256": "0f35e53c39746e30ee4ce57915a8db050a0a5b70e8d26c602ee818324afe67c7"
+        },
+        {
+          "path": "build-work/native/elite_world_verification_armeabi-v7a.json",
+          "bytes": 3605,
+          "sha256": "d05bf08511334bd1120bd3387ace15b0febac6daa58f8df5b499b3f3cf5ed280"
+        },
+        {
+          "path": "build-work/native/emulator-gles-repair/build_result.json",
+          "bytes": 2349,
+          "sha256": "5a66b28e3337c9dcbffb51fd4a5d404faeab6127fb3b1628e790cbca2176ef4a"
+        },
+        {
+          "path": "build-work/native/emulator-gles-repair/libOpenglRender.repair.json",
+          "bytes": 2349,
+          "sha256": "5a66b28e3337c9dcbffb51fd4a5d404faeab6127fb3b1628e790cbca2176ef4a"
+        },
+        {
+          "path": "build-work/native/emulator-gles-repair/original_probe.json",
+          "bytes": 766,
+          "sha256": "6446045a24a329fc60c02bb7c8ecdf3c3f7b8d916070f2fdbec6accf26eac2b6"
+        },
+        {
+          "path": "build-work/native/emulator-gles-repair/repaired_probe.json",
+          "bytes": 3165,
+          "sha256": "b10d6a5bde7b79d0dff98aca4513616f5069d21fd664a943a490e9635a119bf6"
+        },
+        {
+          "path": "build-work/native/emulator-gles-repair/verification_summary.json",
+          "bytes": 1359,
+          "sha256": "47b25d3d44ebe5c473fef8e8213960f86f679c328141f7ca99b7a1f885ecaf74"
+        },
+        {
+          "path": "build-work/native/equipment_appearance_verification.json",
+          "bytes": 835,
+          "sha256": "fe809dd7586e7641ea88a3c5d4aa1e6b762f2a2b0d3217447297ddb727a3331b"
+        },
+        {
+          "path": "build-work/native/equipment_level_payload.inc",
+          "bytes": 9224,
+          "sha256": "0cf4580380e0261d75830d44b92246daa5d879b13f578c7278ec1fdbef5fb942"
+        },
+        {
+          "path": "build-work/native/equipment_level_policy.py",
+          "bytes": 5917,
+          "sha256": "0308fbd6754827b3f0fb364189d145fac7cad45109b3748a29bccc510087a63e"
+        },
+        {
+          "path": "build-work/native/equipment_level_ui.py",
+          "bytes": 9842,
+          "sha256": "de61a1a42b2fd46390e01d9e839078808ed80db65eb2f645debd90a98bb249c6"
+        },
+        {
+          "path": "build-work/native/equipment_level_verification.json",
+          "bytes": 2625,
+          "sha256": "83f9af7be02d33ee797283b404973b147b8bce164031aaeefc6a74572291e1d5"
+        },
+        {
+          "path": "build-work/native/every_game_routing_verification.json",
+          "bytes": 40601,
+          "sha256": "093d99a838514d4b5d2105966a63a238e6f4a70f65a9a0071bebd5b79845b297"
+        },
+        {
+          "path": "build-work/native/game_run_path_manifest.json",
+          "bytes": 34299,
+          "sha256": "ae1421540fa42499c5764668a7b98b288e1edcee19c07a354871109a83416a63"
+        },
+        {
+          "path": "build-work/native/game_run_paths.h",
+          "bytes": 30758,
+          "sha256": "2e0c83c8da0872c129c90421ef2628da20f9d5d278ec94847a8340d18c4e9f8b"
+        },
+        {
+          "path": "build-work/native/game_run_uniform_hooks.py",
+          "bytes": 2580,
+          "sha256": "9ecdd0a8c9e45ede1208da6cbbb1e930dbca25ee3ed17baf86058eafbbdd1c4c"
+        },
+        {
+          "path": "build-work/native/game_run_uniform_verification.json",
+          "bytes": 3617,
+          "sha256": "90d873fc3004abfbef778b51b094442206d2e6d4060636d2aff72558f01e80fd"
+        },
+        {
+          "path": "build-work/native/gameplay_hooks.py",
+          "bytes": 10942,
+          "sha256": "42ef120e340703af0c44e110db90bef88679dc02d532e26fa79fd9d4c489cdd1"
+        },
+        {
+          "path": "build-work/native/generate_game_run_paths.py",
+          "bytes": 3964,
+          "sha256": "ff583b271fe75d4167d4aa8712a29e93670d061c3690e1296cd761c6ddcec049"
+        },
+        {
+          "path": "build-work/native/honors_payload.inc",
+          "bytes": 1108,
+          "sha256": "d9c43f8304fea09851623d4196b0fb4e54e34d177a77f23292f6e769ac376d96"
+        },
+        {
+          "path": "build-work/native/honors_policy.py",
+          "bytes": 5068,
+          "sha256": "8adf3fdded640fe99183d4b3e7bb784acd2f9082e8c0a17cf3048e0e93655d65"
+        },
+        {
+          "path": "build-work/native/honors_verification.json",
+          "bytes": 9920,
+          "sha256": "0f2d55ad98757c000454d9be63944ef576790175a88b7d5232919f17a1cb3510"
+        },
+        {
+          "path": "build-work/native/hook_verification.json",
+          "bytes": 4063,
+          "sha256": "0a5ec40717516a8a6d6025e79a68caaa6408fcd0a030eb12aa524e17364961a1"
+        },
+        {
+          "path": "build-work/native/infinity_ui.py",
+          "bytes": 4203,
+          "sha256": "722453b090128dc701e4b192338cf3193d4275766801c41020c430675da59925"
+        },
+        {
+          "path": "build-work/native/live_stats_ui.py",
+          "bytes": 6541,
+          "sha256": "539e6649c38c211ada726b3bee90c98861130a969ad0b78017de30562ac0585f"
+        },
+        {
+          "path": "build-work/native/live_stats_ui_verification.json",
+          "bytes": 49505,
+          "sha256": "3809010e97b268a01b4570765609586121224f84d3d98220bd528d0c2f0cf889"
+        },
+        {
+          "path": "build-work/native/local_catalog_hooks.py",
+          "bytes": 6219,
+          "sha256": "2a5fa5dbdb98bf95e25ad021bdcc8ddcde4a51d651b886cb8f1c39c6cdd791da"
+        },
+        {
+          "path": "build-work/native/local_catalog_payload.inc",
+          "bytes": 6189,
+          "sha256": "141c8e0253ef99e3500a281c7612c6b322e162a87db4f45c1137c1d5cfcd568a"
+        },
+        {
+          "path": "build-work/native/local_catalog_policy.py",
+          "bytes": 4174,
+          "sha256": "5eb80cc9858054a41fb8e6e560d2fc489e8b556d8ba50dd8b65ac213377ecb90"
+        },
+        {
+          "path": "build-work/native/local_catalog_verification.json",
+          "bytes": 36615,
+          "sha256": "d4febe7cd8499c37311c3f2185a4ab952ed90fd13afac14f32cda5bcb6ac6e09"
+        },
+        {
+          "path": "build-work/native/local_rank_navigation.py",
+          "bytes": 7993,
+          "sha256": "debcf30046417fb6cd4d562799648ef87f790d940cbff6e14f3e26715cb3cae9"
+        },
+        {
+          "path": "build-work/native/local_rank_navigation_map.md",
+          "bytes": 3054,
+          "sha256": "24999ab92b495afc47b313c3f0443c3987081b363db4a30a48b753830ac5e92e"
+        },
+        {
+          "path": "build-work/native/local_rank_navigation_verification.json",
+          "bytes": 2615,
+          "sha256": "8ce8d1d69219e9d4a1cf185654549c00bceacc25ede7a20f9f1b18a0d5286427"
+        },
+        {
+          "path": "build-work/native/local_rank_ui.py",
+          "bytes": 3582,
+          "sha256": "5ae3ad655935de1e3d3da84a14f20ee1973d985318a027d4d3a388ea556aed12"
+        },
+        {
+          "path": "build-work/native/local_rank_ui_map.md",
+          "bytes": 2172,
+          "sha256": "2160cf83ec50d4a1563d434423fe2d180e98e0490bb9f0fe514915bf0cf2acae"
+        },
+        {
+          "path": "build-work/native/local_rank_ui_verification.json",
+          "bytes": 1887,
+          "sha256": "a393c01b3a8456e91ece89dde4097ad9074c19bfc3f2ac6881eaa3739b8186ec"
+        },
+        {
+          "path": "build-work/native/mental_duel_hooks.py",
+          "bytes": 5602,
+          "sha256": "65cf6ce4b8ad92771b5a5355aabbea991f0c8b5f83914b239eedb734a19c78de"
+        },
+        {
+          "path": "build-work/native/mental_duel_payload.inc",
+          "bytes": 2851,
+          "sha256": "0422a71f10dbcec31fb8365f6c3a5fbed2171495ec9cc5697f0092f0ea53ba94"
+        },
+        {
+          "path": "build-work/native/mental_duel_policy.py",
+          "bytes": 2381,
+          "sha256": "dbfd99925a62a37fd09b512d0a0c8e7ea0d2f090a4653a2a93b5886120745436"
+        },
+        {
+          "path": "build-work/native/mental_duel_verification.json",
+          "bytes": 9107,
+          "sha256": "af831ba5743b43e2ffa8600ec6d18f4509f211c07301c108d0a4a10fb12bd20b"
+        },
+        {
+          "path": "build-work/native/native_implementation.md",
+          "bytes": 10965,
+          "sha256": "30f747cd7ecfd58bf2d2bb914499debbe8e2032be5eedffc12f8903632ec34e5"
+        },
+        {
+          "path": "build-work/native/patch_builder.py",
+          "bytes": 6265,
+          "sha256": "5532ebd5bd551af1a26d7495b9f9430070ab792a9098da804772f2955c87597b"
+        },
+        {
+          "path": "build-work/native/payload_builder.py",
+          "bytes": 20423,
+          "sha256": "35fa98ee9814ea8398b457077753b137d2d617284520881a77035e10bece3cba"
+        },
+        {
+          "path": "build-work/native/payload_verification.json",
+          "bytes": 3457,
+          "sha256": "9b9cf21c5447fbafc36d2fd911fccce45e3a26034f7a888afa1ae0fbbb9cfdf2"
+        },
+        {
+          "path": "build-work/native/personal_record_navigation.py",
+          "bytes": 5026,
+          "sha256": "26c04bc9beeb02cf86a0e85c373e0de768fb13ac8c21ee868cc96cf3bb969d76"
+        },
+        {
+          "path": "build-work/native/personal_record_ui.py",
+          "bytes": 2193,
+          "sha256": "1e3dc7486f3d65bdb2536eea1d2ad7c635c1d50424646e3bc39aba95dcc1b154"
+        },
+        {
+          "path": "build-work/native/personal_record_verification.json",
+          "bytes": 2627,
+          "sha256": "c1b14f18df58973a6b17b9ebff6706ba1e55f042b7083c44e9cb156cbce2e25b"
+        },
+        {
+          "path": "build-work/native/pitch_speed_ui.py",
+          "bytes": 1257,
+          "sha256": "99fe758cacdc75d7ca2d76f5d3eb37bb47d69e78f99e5557c860c2f6af5fe01c"
+        },
+        {
+          "path": "build-work/native/pitch_speed_ui_verification.json",
+          "bytes": 5569,
+          "sha256": "2341c895471e1b0af205f1ed24a47cfd558735ed49309e4452c9d497e25be47d"
+        },
+        {
+          "path": "build-work/native/probe_emulator_fbo.py",
+          "bytes": 13449,
+          "sha256": "24d33008486a8b2fd3ec97fd1cbaf624288d7a2d613e9184ecdcfc081bdec9a9"
+        },
+        {
+          "path": "build-work/native/rank_core_verification.json",
+          "bytes": 951,
+          "sha256": "04d2a7c14b79731b374bfec594157f6f7a824708bb4492472a55509cd7fa002c"
+        },
+        {
+          "path": "build-work/native/record_core_verification.json",
+          "bytes": 3623,
+          "sha256": "dbb762555ffa857a830c8cfd1bc962042a52de681da43827d2f6637b5a17bf2f"
+        },
+        {
+          "path": "build-work/native/record_selector_map.json",
+          "bytes": 21554,
+          "sha256": "c489ba56721e6afcc733c764377ba8d659287bd921b9ce518bae479a31245650"
+        },
+        {
+          "path": "build-work/native/relocation_verification.json",
+          "bytes": 6230,
+          "sha256": "129aec77abdea8985be3d8bbac298b6eda34b097313c28b82ff9929ec3397ed2"
+        },
+        {
+          "path": "build-work/native/repair_emulator_fbo.py",
+          "bytes": 10525,
+          "sha256": "6b027481e66c92ba6e271e7209a3c8a01a5c7c86fee447f2aa1f66e2d26d35ce"
+        },
+        {
+          "path": "build-work/native/roster_number_ui.py",
+          "bytes": 2241,
+          "sha256": "3e85395b1e54b3c1ff5f74e24f1bb7510e3929d0fbf4f3377ca49eaf49ccad84"
+        },
+        {
+          "path": "build-work/native/roster_number_ui_verification.json",
+          "bytes": 30593,
+          "sha256": "9c2932999a32f835fcea427c1e0ff8b711cdf8399205709fea14df6c398a1133"
+        },
+        {
+          "path": "build-work/native/signer_pin.py",
+          "bytes": 1482,
+          "sha256": "5b814f6fb10ed48936db98e16f45b456cd9017768ae6049e02bd11d7d99d568c"
+        },
+        {
+          "path": "build-work/native/skill_points_hooks.py",
+          "bytes": 7250,
+          "sha256": "d940102b70ed693e74235ade0f7948d687dd114ccfc1bbeea9bbe1a780e44c18"
+        },
+        {
+          "path": "build-work/native/skill_points_payload.inc",
+          "bytes": 2913,
+          "sha256": "f2b716db701d7e75813fcb0c6a66e47ea069b7ac46c5987970bb10ed090b088e"
+        },
+        {
+          "path": "build-work/native/skill_points_policy.py",
+          "bytes": 4915,
+          "sha256": "1c45e33542c843fa088d1c4b06dd521427199dff95137b2daf4ca2b168405de8"
+        },
+        {
+          "path": "build-work/native/skill_points_verification.json",
+          "bytes": 3960,
+          "sha256": "f0d295bef11e6f2f43ffdb95e0f6df3c09fdb9d103aea38929a1251e2d2b7682"
+        },
+        {
+          "path": "build-work/native/special_level_bounds.json",
+          "bytes": 880,
+          "sha256": "45d5c59dd04eb4c8abbe6d5c86b03c0f36a2f97017b5b1403698dda08682f7e0"
+        },
+        {
+          "path": "build-work/native/special_uses_hooks.py",
+          "bytes": 3615,
+          "sha256": "1784d5285ad04973298bde303c74f01f4f14da93a60dd80bf0382b69fecefd8c"
+        },
+        {
+          "path": "build-work/native/special_uses_payload.inc",
+          "bytes": 4341,
+          "sha256": "adc6ab6e67f28a80d064517b387ea4b425b08c1e63863cab8c64edb454bd0265"
+        },
+        {
+          "path": "build-work/native/special_uses_policy.py",
+          "bytes": 6294,
+          "sha256": "71d133e942a6ce8a3c92cf7cd132a960a452988835de43e9e07d2d1015603416"
+        },
+        {
+          "path": "build-work/native/special_uses_verification.json",
+          "bytes": 7216,
+          "sha256": "e270456b8187e42fe433c70c3609c6b559faec6f4d8c63a3063650688a15283d"
+        },
+        {
+          "path": "build-work/native/starting_pitcher_review.md",
+          "bytes": 5704,
+          "sha256": "294de67fbdfa8d5b47752d36f279bf92957f547568183680be8252a507f849de"
+        },
+        {
+          "path": "build-work/native/starting_pitcher_verification.json",
+          "bytes": 1889,
+          "sha256": "402e016f3268001d3db704a27ca2a795c64678a94aae646dd627be0695cc04c3"
+        },
+        {
+          "path": "build-work/native/stock_equipment_appearance_map.json",
+          "bytes": 3372,
+          "sha256": "72541b28c7227a229656d5ec34e876cf2eb969e8067c0e282cc49465d53dde17"
+        },
+        {
+          "path": "build-work/native/stock_equipment_appearance_map.md",
+          "bytes": 2587,
+          "sha256": "28220b30ef02ba31f46f05557c715a27368e3a56edca37e4d1aa8f40d1acd9ba"
+        },
+        {
+          "path": "build-work/native/team_mean_hooks.py",
+          "bytes": 4975,
+          "sha256": "0a4750ddc6aa01a28b18f2d4de9970fe2662d232f3abe6d878bdc6b8012d044d"
+        },
+        {
+          "path": "build-work/native/team_mean_payload.inc",
+          "bytes": 1590,
+          "sha256": "be196342f62801c8634cf456ca0bff22bcc7e62e11bc5a4c5050d8b42da5ab5c"
+        },
+        {
+          "path": "build-work/native/team_mean_policy.py",
+          "bytes": 2459,
+          "sha256": "57cc36401ceac418197d32b4a5c9b2696d793463c5d15ca8255637b0925debf5"
+        },
+        {
+          "path": "build-work/native/team_mean_verification.json",
+          "bytes": 5302,
+          "sha256": "7822c16db0b0813efb00b1a066b267d458b1710db13012f5dbfb60c7cb0d5395"
+        },
+        {
+          "path": "build-work/native/training_max_ui.py",
+          "bytes": 1606,
+          "sha256": "1f90849033d3e84f9eee3ce8cb95f3e8bd516c24d9faa3670dcb21bbd92df92a"
+        },
+        {
+          "path": "build-work/native/training_max_ui_verification.json",
+          "bytes": 5903,
+          "sha256": "723ce441be1fb778b9d592e16e82104942d3c54d86f2d38e63e9afdca7e981f1"
+        },
+        {
+          "path": "build-work/native/verify_award_record_ui.py",
+          "bytes": 18661,
+          "sha256": "dcb688ed6b6b177c79657f058961cd4c414d345c3b8aa60a539360ddf4d8bc77"
+        },
+        {
+          "path": "build-work/native/verify_batter_presence.py",
+          "bytes": 8450,
+          "sha256": "09e9b91a041684042700bd4654ba5ece8c66bfa8b7baf8de606de205ac4b72a2"
+        },
+        {
+          "path": "build-work/native/verify_batting_rescue.py",
+          "bytes": 13391,
+          "sha256": "364d7d85b914cb748a96d9f3845c5b81164bc756cd90233e922a676246c5a404"
+        },
+        {
+          "path": "build-work/native/verify_career_ability_ui.py",
+          "bytes": 6766,
+          "sha256": "035749ad7ef77528a6752d8ba33ff79e8fba660e8a1ec4f31e2cc29ce7ca1bd3"
+        },
+        {
+          "path": "build-work/native/verify_career_resources.py",
+          "bytes": 16291,
+          "sha256": "6cbdf83a84cec5d67a022709e2bd53967470a18bfe5cbd9df29b3323dd3fc8da"
+        },
+        {
+          "path": "build-work/native/verify_defender_hooks.py",
+          "bytes": 6853,
+          "sha256": "02f3c9b4e13ec9535906f0ef87cc399bbf4d954876ac20bfbf652440d749e9c7"
+        },
+        {
+          "path": "build-work/native/verify_elite_world.py",
+          "bytes": 23710,
+          "sha256": "276a2d3e860f6af15c495d39aec2d92a2c6223a1bcbc61607e20f94678558f19"
+        },
+        {
+          "path": "build-work/native/verify_equipment_appearance.py",
+          "bytes": 4569,
+          "sha256": "c9a6c341ddafa4e98388c44dfb6a2b1b767df51e8c9f81bc107226944987c462"
+        },
+        {
+          "path": "build-work/native/verify_equipment_level.py",
+          "bytes": 21714,
+          "sha256": "45c42c26bb94ce58e8ecdef8c9db223453b8f7851e06894f717ac496454cda7e"
+        },
+        {
+          "path": "build-work/native/verify_every_game_routing.py",
+          "bytes": 3544,
+          "sha256": "754d231c818a418a8fa52b33864b3e343e12cf31859c9424104c7e54d8acff73"
+        },
+        {
+          "path": "build-work/native/verify_game_run_uniform_hooks.py",
+          "bytes": 8177,
+          "sha256": "861b82cf722a655f3e2602b5e0df466cd98cba5a452d181ab863ef2287fa3ba9"
+        },
+        {
+          "path": "build-work/native/verify_gameplay_hooks.py",
+          "bytes": 11627,
+          "sha256": "7f83fa626e6f53c56977e3a2961b34238eb20c6edc4665423a28cd08aee46526"
+        },
+        {
+          "path": "build-work/native/verify_honors.py",
+          "bytes": 16709,
+          "sha256": "6e16dcbd7b5f362bb5a916c8351db47d313c893bd9e9ec093623a1b87d4c87cd"
+        },
+        {
+          "path": "build-work/native/verify_infinity_ui.py",
+          "bytes": 3870,
+          "sha256": "d3852fd44a3892c26173c5a29d1259e68c66e655c9024950bedf60c22cfe49d4"
+        },
+        {
+          "path": "build-work/native/verify_live_stats_ui.py",
+          "bytes": 8826,
+          "sha256": "a3928884ce3844721aff45da2461e27c6d34d25923d6c226c0565b2115937ca2"
+        },
+        {
+          "path": "build-work/native/verify_local_catalog.py",
+          "bytes": 17623,
+          "sha256": "33be3d246d04d53449b5bb8100bc3bba4e5a339990560f9ab96b3f3a56b0b3b6"
+        },
+        {
+          "path": "build-work/native/verify_local_rank_navigation.py",
+          "bytes": 16279,
+          "sha256": "822cb1f344222993a7acb4a49c7ac372633fc7db18a9f5a42573ced3004f1a55"
+        },
+        {
+          "path": "build-work/native/verify_local_rank_ui.py",
+          "bytes": 8023,
+          "sha256": "ad5feaeb35e25d4a4811f9c4d605533c525a901f521cee798329d29ac3248be4"
+        },
+        {
+          "path": "build-work/native/verify_mental_duel.py",
+          "bytes": 13853,
+          "sha256": "ae43810050d7f98200eaccee264c7fb130455170119d198f9e30edeea53165e4"
+        },
+        {
+          "path": "build-work/native/verify_original_plt_cache.py",
+          "bytes": 1915,
+          "sha256": "3260dbe189b7a0d9a782677c2a00ecc34259975c233256de522e3ebf34f44de0"
+        },
+        {
+          "path": "build-work/native/verify_payload.py",
+          "bytes": 9838,
+          "sha256": "0bf57b9fbf2c69e7ec4f66ada743b2a15f384f6a9f875e350c95a6db7f3d7ecf"
+        },
+        {
+          "path": "build-work/native/verify_personal_records.py",
+          "bytes": 8244,
+          "sha256": "99bdf6b01566d9d1f956823556f9dfa382d44d68e853b6714e8d67bb6e6a66fb"
+        },
+        {
+          "path": "build-work/native/verify_pitch_speed_ui.py",
+          "bytes": 4771,
+          "sha256": "78c1af803e08265d01a37da72cd8a7e1c4e71b5cb98548199e2078431f0c8f5f"
+        },
+        {
+          "path": "build-work/native/verify_rank_core.py",
+          "bytes": 14301,
+          "sha256": "d1a8c19190840e538090ece524d2e36f887d1d2f6362d23cbd12fa2bc006c682"
+        },
+        {
+          "path": "build-work/native/verify_record_core.py",
+          "bytes": 15340,
+          "sha256": "9ba85c81d597794d94250dec2f9e003a2f627745c953a208adbec2ce457e3f61"
+        },
+        {
+          "path": "build-work/native/verify_record_navigation.py",
+          "bytes": 7966,
+          "sha256": "fa03d21e3bd9ecda3af8fdf3c0cd778128c95cb7fe6c0e63eb58bb74cdab2016"
+        },
+        {
+          "path": "build-work/native/verify_relocation.py",
+          "bytes": 12268,
+          "sha256": "707fa05f4352d11491fa56160261b47287404171858a57e3d11f314e521496ec"
+        },
+        {
+          "path": "build-work/native/verify_roster_number_ui.py",
+          "bytes": 4253,
+          "sha256": "54f4114cadba12da6d63db3d0e0f83894892e89cde975f556857d3fa21eaa957"
+        },
+        {
+          "path": "build-work/native/verify_signer_pin.py",
+          "bytes": 4610,
+          "sha256": "29e3dc60ee2eecedd59d5866be61c73a83de60faa59466f7c29c6a54310ab47c"
+        },
+        {
+          "path": "build-work/native/verify_skill_points.py",
+          "bytes": 20325,
+          "sha256": "b4c1c2a7938533f8aeb512e5fce80fa188a15d67aed281aaf15f7f22d2bd4528"
+        },
+        {
+          "path": "build-work/native/verify_special_uses.py",
+          "bytes": 18998,
+          "sha256": "520b41e55aa259789ef9d963d47ce7045bea5e1f769b55c3607f403ec7670206"
+        },
+        {
+          "path": "build-work/native/verify_starting_pitcher.py",
+          "bytes": 5876,
+          "sha256": "876cf481aad41d2339dc9304415388d4dfc483bfca4b0b1f07523b9eec145348"
+        },
+        {
+          "path": "build-work/native/verify_team_mean.py",
+          "bytes": 10156,
+          "sha256": "297e31aedecf76115a4345d20ee24303022fd2e9a684478ffabf914c1314a4d3"
+        },
+        {
+          "path": "build-work/native/verify_training_max_ui.py",
+          "bytes": 4039,
+          "sha256": "d55d911f7db840872b4f7750e924bd9c80cfb72563455817f7d34d7865cf8148"
+        },
+        {
+          "path": "build-work/native/verify_wallet.py",
+          "bytes": 14311,
+          "sha256": "c2244056670a4ed71556da80647eec7cc383376d726bace4fd5c74297c166b34"
+        },
+        {
+          "path": "build-work/native/verify_wallet_ui.py",
+          "bytes": 12391,
+          "sha256": "c908aab0f060239b35ab19e6edd5c6baa8c3ac52a2d41b66937ca7cb3dffe5fb"
+        },
+        {
+          "path": "build-work/native/wallet_hooks.py",
+          "bytes": 7242,
+          "sha256": "58f1dc18073dab7e764c8ae3f21ce396e27f9097e79ffed12499b8fc2849bbf7"
+        },
+        {
+          "path": "build-work/native/wallet_payload.inc",
+          "bytes": 5694,
+          "sha256": "d791651b9fe381f73405621c38c572018dc0b6c8af782875b0117d094d8aa240"
+        },
+        {
+          "path": "build-work/native/wallet_policy.py",
+          "bytes": 4086,
+          "sha256": "9be9e964ea0e0577eb48abde742d580f6f85e75553fcd8c157cacf0ee6a3d3fe"
+        },
+        {
+          "path": "build-work/native/wallet_ui.py",
+          "bytes": 3245,
+          "sha256": "ea09501bbd0f32b0f8c43efc52c70df9a519ab9634520a9bcd2c0f67b249275c"
+        },
+        {
+          "path": "build-work/native/wallet_ui_payload.inc",
+          "bytes": 4339,
+          "sha256": "b2b6e6232ba2c1bcb5933382eeae93eb64ef070ad3553bc7327b234e9e6367ca"
+        },
+        {
+          "path": "build-work/native/wallet_ui_policy.py",
+          "bytes": 3616,
+          "sha256": "72b4a373da8e5a0b2109356e573265f5b4b12e03e143c43b53e5a6bb84e2b054"
+        },
+        {
+          "path": "build-work/native/wallet_ui_verification.json",
+          "bytes": 1788,
+          "sha256": "75c0bcea368a7b9e77e8ec7e2d56f8214910ff8f5097dcbe760c030667a9402a"
+        },
+        {
+          "path": "build-work/native/wallet_verification.json",
+          "bytes": 2729,
+          "sha256": "e285b012cc3b3273ed808db3fbf1b16c5d37bc2e1eba3a545b02fa9f3635b3a5"
+        },
+        {
+          "path": "build-work/native/yagu_payload.c",
+          "bytes": 46581,
+          "sha256": "0f6d03496c02621452295ffb44d9ea7fc2805828f3ccf570d3f423ddbc5bff5b"
+        },
+        {
+          "path": "build-work/release/audit_public_sources.py",
+          "bytes": 5837,
+          "sha256": "863ea920a17df4a88e17161684f831bc0eed000e78f9371773b661263a78bde3"
+        },
+        {
+          "path": "build-work/release/package_project.py",
+          "bytes": 7250,
+          "sha256": "e47f61be3e05907302eb2b2d38bab221ac08273bcdfd950fb4006f31b8f6084f"
+        },
+        {
+          "path": "build-work/release/verify_release.py",
+          "bytes": 2624,
+          "sha256": "60120c3021536bfb03b71ce09c137177023e7ddc68e852f1be152c555ef99cf7"
+        },
+        {
+          "path": "build.py",
+          "bytes": 7516,
+          "sha256": "ff571c2d43c3f16f982653cfd7f4e9b8f4acc305b2801f097269d14522e6b747"
+        },
+        {
+          "path": "docs/COVERAGE.md",
+          "bytes": 12671,
+          "sha256": "a59c9aba156c4c57ba7b8b778d666d0149b15d6b3f5fd13a59d0d621f4e1545f"
+        },
+        {
+          "path": "docs/CURRENT_SCOPE.md",
+          "bytes": 11039,
+          "sha256": "645782b5ddac360c1d897f35923e1e15a3d0fe123c7458b2befad5015ccb0aab"
+        },
+        {
+          "path": "docs/IMPLEMENTATION.md",
+          "bytes": 11709,
+          "sha256": "49c1cd3a054e6503cdadf555f9b826dcc5378fb1be85141efa40c9a9c4ca8eb6"
+        },
+        {
+          "path": "docs/SOURCE_RELEASE_AUDIT.md",
+          "bytes": 9410,
+          "sha256": "c6eef1a11b753e4cf15bdd0439df21227e21cf961ffd810d9f69bfbd95ef5c27"
+        },
+        {
+          "path": "docs/WEB_SNAPSHOT.md",
+          "bytes": 2673,
+          "sha256": "7413b1f20b27064a1593b9b6d482c7180c53e2aec67fa8e202f14b8f24799201"
+        },
+        {
+          "path": "docs/art/README.md",
+          "bytes": 3727,
+          "sha256": "e8c366b74831963bdf081cf24fdb5a60d3139c81b1890c0eaa72cc1240956ceb"
+        },
+        {
+          "path": "docs/art/art_overlay_manifest.json",
+          "bytes": 38402,
+          "sha256": "d1ebcd81acd32bc3353a952ac73b2025d6c1af5e81b57b3d8181adc4a55eac67"
+        },
+        {
+          "path": "docs/art/asset_consumption.json",
+          "bytes": 834,
+          "sha256": "ffe960b7c1d5932449545cab653e4db8a643377102bf5d19501d82e097b76149"
+        },
+        {
+          "path": "docs/art/brand_delta_v1.2.json",
+          "bytes": 7162,
+          "sha256": "ad486217386f913beaa7392837aa5c8d27ff665573f99350ec6c2959a9c37faf"
+        },
+        {
+          "path": "docs/art/game_run_part_paths.json",
+          "bytes": 2489,
+          "sha256": "4c7a6697e3c4e55081091e0bbff0691a566b2183335c08c8163af00c69b1fe8a"
+        },
+        {
+          "path": "docs/art/team_and_player_identity.json",
+          "bytes": 5699,
+          "sha256": "88ddc737a4aef1711bba7de6d54bbb85b1b1486fdcd32527ccc53ae172040bf7"
+        },
+        {
+          "path": "docs/endpoint_and_checker_analysis.json",
+          "bytes": 2856,
+          "sha256": "d954ac01b372f3e9a81eb42fde121940475e007a9ef10d54f218f0b87d5a75a6"
+        },
+        {
+          "path": "docs/runtime_observations.md",
+          "bytes": 4665,
+          "sha256": "2bbfde3e98aee6b2ab6ef06bda9d84183728b870cd588a1fbe364725f1e09509"
+        },
+        {
+          "path": "docs/source_selection_audit.json",
+          "bytes": 2944,
+          "sha256": "3f5af35401c028ee114165e01d7b1f1fce247c15264877f13b0737fa8211842e"
+        },
+        {
+          "path": "requirements-art.txt",
+          "bytes": 117,
+          "sha256": "16d051529e4fea5a5f9fc8318fc8b2d472750e49d2f457eae8b416b7cc30cc6d"
+        },
+        {
+          "path": "requirements.txt",
+          "bytes": 92,
+          "sha256": "541d0a806e89bf1e17e2987998bcf6c88991867a15016d24d3f7c6355aeeab84"
+        },
+        {
+          "path": "web/.openai/hosting.json",
+          "bytes": 95,
+          "sha256": "463d436f17551764d7aa6984a5c2cb823f16582f59ea3161b465d82ccfeb7007"
+        },
+        {
+          "path": "web/CLIENT_CONTRACT.md",
+          "bytes": 4387,
+          "sha256": "d4ac5d5af9da6db4687f8186bba80c04912bb3eb5052c16c3c5dfe0bdcfe8565"
+        },
+        {
+          "path": "web/client.html",
+          "bytes": 27074,
+          "sha256": "b393a777b2cc9305e1d381609c2e44fd2603dfea24f2e41f8ec0d8029555ac10"
+        },
+        {
+          "path": "web/package.json",
+          "bytes": 212,
+          "sha256": "93502efc4870e08d70a4d3275baee3d0c7d4e7f3ba7b5dc6de3d599e84376022"
+        },
+        {
+          "path": "web/scripts/build.mjs",
+          "bytes": 694,
+          "sha256": "a0f13cde6cd4f20311f4b60d672cddd112172454dfd176084c3224cb5f9b7a5e"
+        },
+        {
+          "path": "web/scripts/dev.mjs",
+          "bytes": 3373,
+          "sha256": "de512a88d5134e4807e9887857a59260aef50bcfc150cbb4b891d9e56ec95222"
+        },
+        {
+          "path": "web/scripts/relay.py",
+          "bytes": 5425,
+          "sha256": "5fffa05e8d0b1adca2c9ee5a12e50e6d565d1431276d3d5b116279c0a7771aaa"
+        },
+        {
+          "path": "web/scripts/relay_transport.py",
+          "bytes": 4910,
+          "sha256": "33a4876a49473689b51275da3f456741bb43d1eafab9cf3fc587425e72d295b7"
+        },
+        {
+          "path": "web/scripts/validate-artifact.mjs",
+          "bytes": 953,
+          "sha256": "39d9df53ac2461962466d5965c5f4d06f08024ceca40605952d8b753b88d41fd"
+        },
+        {
+          "path": "web/tests/client-input.test.mjs",
+          "bytes": 2730,
+          "sha256": "0ad349fba70fca7fae56d3222ee0f22c63e2c976c6bd0021e4eec6f98f9dc29e"
+        },
+        {
+          "path": "web/tests/relay-transport.test.mjs",
+          "bytes": 330,
+          "sha256": "fe8532b7f2a102ec124fed05a1281f1447ed39bf99e227290f6fb3e60e647936"
+        },
+        {
+          "path": "web/tests/relay.test.mjs",
+          "bytes": 5217,
+          "sha256": "18e3254d27f2ce145317b44bd6b7d59fd68cb43d442b307661306d11527de59b"
+        },
+        {
+          "path": "web/tests/relay_transport_test.py",
+          "bytes": 1992,
+          "sha256": "528364c7d1cdd8e081b216651842f7b155751e6234db567830a6413b3445a9ef"
+        },
+        {
+          "path": "web/worker/index.js",
+          "bytes": 1346,
+          "sha256": "2917434bd856c428f5ea636148dfd0161804c14a2f81e019980d573af28ef883"
+        },
+        {
+          "path": "web/worker/relay.js",
+          "bytes": 7755,
+          "sha256": "f7c58bbb0483a01c57df3f19a2f8f6929d3f1e7d62ae65d392f3c06180c5044a"
+        }
+      ]
+    },
+    {
+      "filename": "yagu-art-overlay.zip",
+      "bytes": 2352042,
+      "sha256": "748147bf7f0577dc2aac80b09a8b3d08cfbf866bc6def242ad40abfe06906c49",
+      "entries": [
+        {
+          "path": "docs/art/art_overlay_manifest.json",
+          "bytes": 38402,
+          "sha256": "d1ebcd81acd32bc3353a952ac73b2025d6c1af5e81b57b3d8181adc4a55eac67"
+        },
+        {
+          "path": "overlays/art/assets/data/StrCOMMON_BB2013.zt1",
+          "bytes": 11052,
+          "sha256": "47f1017a6b4b976401155f5f95bbf6cbd326262870201aa52882a98e26950df6"
+        },
+        {
+          "path": "overlays/art/assets/data/XlsACE_BAT_DATA.zt1",
+          "bytes": 165,
+          "sha256": "81c58fc2482707016b3302c1553d2aaa9ba9715242020038ba7c573312237129"
+        },
+        {
+          "path": "overlays/art/assets/data/XlsACE_PIT_DATA.zt1",
+          "bytes": 191,
+          "sha256": "72f4962e32e1faeed482ffaeac07d5efb62ea50c1ed0f61c68f6a2a629e2c1f3"
+        },
+        {
+          "path": "overlays/art/assets/data/XlsBATTER_DATA.zt1",
+          "bytes": 2196,
+          "sha256": "11b63de65caae1962ad4e1664ea71534f82eabe9c0396d7735907a3c76eda8e7"
+        },
+        {
+          "path": "overlays/art/assets/data/XlsBatterTeamUniformColorCombi.dat",
+          "bytes": 506,
+          "sha256": "44602be6033eb507fcbdf27ce2546397d3356d17d698f0600762416a8e4f513d"
+        },
+        {
+          "path": "overlays/art/assets/data/XlsBatterTeamUniformColorCombi.zt1",
+          "bytes": 105,
+          "sha256": "65491cb35e414f11161d0d3a5f1c9ff4946d7c23d206f8bd4a460b1707f8ad46"
+        },
+        {
+          "path": "overlays/art/assets/data/XlsPITCHER_DATA.zt1",
+          "bytes": 1928,
+          "sha256": "8868b1cf016a77098567fd84e90b8883f3d6cf328eb1e7385af091ae2d806a04"
+        },
+        {
+          "path": "overlays/art/assets/data/XlsPitcherTeamUniformColorCombi.dat",
+          "bytes": 506,
+          "sha256": "44602be6033eb507fcbdf27ce2546397d3356d17d698f0600762416a8e4f513d"
+        },
+        {
+          "path": "overlays/art/assets/data/XlsPitcherTeamUniformColorCombi.zt1",
+          "bytes": 105,
+          "sha256": "65491cb35e414f11161d0d3a5f1c9ff4946d7c23d206f8bd4a460b1707f8ad46"
+        },
+        {
+          "path": "overlays/art/assets/data/Xlsteam_emblem_info.dat",
+          "bytes": 90,
+          "sha256": "c9bbc2fdee1c0c691aff292767dd9aad5553c03d7c87f2c7c716fd56f45d96e2"
+        },
+        {
+          "path": "overlays/art/assets/data/Xlsteam_emblem_info.zt1",
+          "bytes": 71,
+          "sha256": "f9910fae0e04bca02fe425423920d517122bda5a046f83489169068323c0dacb"
+        },
+        {
+          "path": "overlays/art/assets/global_language/china_cn/StrCOMMON_BB2013.zt1",
+          "bytes": 10055,
+          "sha256": "982fcf8b8b14719a46ef71aa3686b7bc2ead5449710856a2a236492a6c960307"
+        },
+        {
+          "path": "overlays/art/assets/global_language/china_cn/XlsBATTER_DATA.zt1",
+          "bytes": 2196,
+          "sha256": "11b63de65caae1962ad4e1664ea71534f82eabe9c0396d7735907a3c76eda8e7"
+        },
+        {
+          "path": "overlays/art/assets/global_language/china_cn/XlsPITCHER_DATA.zt1",
+          "bytes": 1928,
+          "sha256": "8868b1cf016a77098567fd84e90b8883f3d6cf328eb1e7385af091ae2d806a04"
+        },
+        {
+          "path": "overlays/art/assets/global_language/china_tw/StrCOMMON_BB2013.zt1",
+          "bytes": 10071,
+          "sha256": "912bdb053c7411a16d59f02ceed6dad4225d0c2a59f6b2bca7d29e364837a51b"
+        },
+        {
+          "path": "overlays/art/assets/global_language/china_tw/XlsBATTER_DATA.zt1",
+          "bytes": 2196,
+          "sha256": "11b63de65caae1962ad4e1664ea71534f82eabe9c0396d7735907a3c76eda8e7"
+        },
+        {
+          "path": "overlays/art/assets/global_language/china_tw/XlsPITCHER_DATA.zt1",
+          "bytes": 1928,
+          "sha256": "8868b1cf016a77098567fd84e90b8883f3d6cf328eb1e7385af091ae2d806a04"
+        },
+        {
+          "path": "overlays/art/assets/global_language/eng/StrCOMMON_BB2013.zt1",
+          "bytes": 9825,
+          "sha256": "b82dfc9a747f2e787592a18228cb77ea75e252892617ac9775cd0990ff8013ca"
+        },
+        {
+          "path": "overlays/art/assets/global_language/eng/XlsBATTER_DATA.zt1",
+          "bytes": 2196,
+          "sha256": "11b63de65caae1962ad4e1664ea71534f82eabe9c0396d7735907a3c76eda8e7"
+        },
+        {
+          "path": "overlays/art/assets/global_language/eng/XlsPITCHER_DATA.zt1",
+          "bytes": 1928,
+          "sha256": "8868b1cf016a77098567fd84e90b8883f3d6cf328eb1e7385af091ae2d806a04"
+        },
+        {
+          "path": "overlays/art/assets/global_language/jap/StrCOMMON_BB2013.zt1",
+          "bytes": 10407,
+          "sha256": "313ba82735abd878065ee39ac8204f08ecf66fea5c9cfc0bff49f16b1cf4c252"
+        },
+        {
+          "path": "overlays/art/assets/global_language/jap/XlsBATTER_DATA.zt1",
+          "bytes": 2198,
+          "sha256": "a92af2969b8a91c1255f3490ba9b3328afd333fcb5c5d59a6fedc7c3433ebb88"
+        },
+        {
+          "path": "overlays/art/assets/global_language/jap/XlsPITCHER_DATA.zt1",
+          "bytes": 1929,
+          "sha256": "75780ac88800f31284c697e5cafb5fba8497396625892a38b7a608e169da4426"
+        },
+        {
+          "path": "overlays/art/assets/global_language/spn/StrCOMMON_BB2013.zt1",
+          "bytes": 10600,
+          "sha256": "86422b461e43b3a7457f71cee59bca801d96232248c4a4e3e03c26227f362864"
+        },
+        {
+          "path": "overlays/art/assets/global_language/spn/XlsBATTER_DATA.zt1",
+          "bytes": 2196,
+          "sha256": "11b63de65caae1962ad4e1664ea71534f82eabe9c0396d7735907a3c76eda8e7"
+        },
+        {
+          "path": "overlays/art/assets/global_language/spn/XlsPITCHER_DATA.zt1",
+          "bytes": 1928,
+          "sha256": "8868b1cf016a77098567fd84e90b8883f3d6cf328eb1e7385af091ae2d806a04"
+        },
+        {
+          "path": "overlays/art/assets/title/title_back.png",
+          "bytes": 1267868,
+          "sha256": "ee937f45b5228da80bdf3a8f3c3d6644a21aa0db251d1f587b57b11d62026309"
+        },
+        {
+          "path": "overlays/art/assets/ui/CC_Team_Symbol_Parts.png",
+          "bytes": 831695,
+          "sha256": "ea76052a728136769ae107b33ecb7c969604f8d6a1354bda7876def4b3433279"
+        },
+        {
+          "path": "overlays/art/assets/ui/CC_Team_Symbol_Parts.pzc",
+          "bytes": 6248,
+          "sha256": "bf66e973fd4b8b8878031aab34085df98aa396b1823480e9172a4fd99a2b381d"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainframe_cha_CN.zt1",
+          "bytes": 353,
+          "sha256": "4c84274314b6c877294ae6585b96a3791d9361e5ce949bd9fb08830f6aab1a93"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainframe_cha_TW.zt1",
+          "bytes": 352,
+          "sha256": "7b25c45596fbaad0b09d258b454b55414a49df46765792671dd138aa983d5644"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainframe_eng.zt1",
+          "bytes": 323,
+          "sha256": "e72c7d75c6f6295a8e5f6744f86ed1fb20bb08130cd9b1476f3ba5d3b37c06df"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainframe_jap.zt1",
+          "bytes": 370,
+          "sha256": "1f1c5469264ce8b3c9614864a1a66ed54cdd9820437cec96eaabc26fb138981b"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainframe_kor.zt1",
+          "bytes": 336,
+          "sha256": "dc40dc891f1d61513048013483efaa6cf2fc8f5b09d52808d15e3e2a914d0150"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainframe_spn.zt1",
+          "bytes": 359,
+          "sha256": "e5a5b757acb786ebf592ce13e19cf5ce0ecc3bffa830e91b543c66f7aaef3983"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainmenu_cha_CN.zt1",
+          "bytes": 1500,
+          "sha256": "cbe401739ceb0a97e4337fbd2a6b569ba2051b6b13bd0549d952f6d4009f7af3"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainmenu_cha_TW.zt1",
+          "bytes": 1501,
+          "sha256": "7a9f201805afeaed73aa662b53c163b5590b36efc9f44f0930ccf676badd5085"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainmenu_eng.zt1",
+          "bytes": 1447,
+          "sha256": "fa1760003d5298537f9caa4c63f6948385d754a99b500d33b27849ea095dedec"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainmenu_jap.zt1",
+          "bytes": 1627,
+          "sha256": "ed633db470811477324868ae03fb6c8c74a4ac2214d97e1489c682fe033f53a8"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainmenu_kor.zt1",
+          "bytes": 1604,
+          "sha256": "435e498856908722dd5e03760b5cd781e55e0af28e620ef2935f98ee666e9598"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsMainmenu_spn.zt1",
+          "bytes": 1606,
+          "sha256": "7ccd020a48b78dd25f2e03e1d7b63689fc407c7b12c8265a8ebfd45647459e60"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsRaiseYearUI_cha_CN.zt1",
+          "bytes": 1174,
+          "sha256": "12488fca74d99ac1cdea7275e532e2859c0fdddf35c3107774c839be5e9631e7"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsRaiseYearUI_cha_TW.zt1",
+          "bytes": 1179,
+          "sha256": "3363ad69e260db7806c6f9d7ef48033c12f3f62a73bbefff9acc308e58400e6f"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsRaiseYearUI_eng.zt1",
+          "bytes": 1055,
+          "sha256": "2941061842975432e2d537a6b11bd7fb5d24590ba0c4614c94697c0a217275ea"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsRaiseYearUI_jap.zt1",
+          "bytes": 1218,
+          "sha256": "cf6f4143c1e83fc1f2bfc65d9eabf125e2def939e805e12e4e310c255710b4f8"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsRaiseYearUI_kor.zt1",
+          "bytes": 1174,
+          "sha256": "31c4caacf01970e3e75e4e3db20a27184c7a214bdb74f11a0481c9eacf4fb70f"
+        },
+        {
+          "path": "overlays/art/assets/ui_text/XlsRaiseYearUI_spn.zt1",
+          "bytes": 1200,
+          "sha256": "81f846bfda759e8a080454133a13607b3f50fa7699272728f98a186c8a8a8cff"
+        },
+        {
+          "path": "overlays/art/res/-t.png",
+          "bytes": 46338,
+          "sha256": "cfc7787d44f8d6bdc1b1f6a0274d6f24a8e47b9148ffa79c57adbd362bcdf899"
+        },
+        {
+          "path": "overlays/art/res/2H.png",
+          "bytes": 3958,
+          "sha256": "2ebefc8c8360054f101e6e91147c04992a36fdf31462b901d5580a105cc86c96"
+        },
+        {
+          "path": "overlays/art/res/2c.png",
+          "bytes": 76732,
+          "sha256": "0b79f8ae3fa9d33014f29bf40178e799a5a1894766646b323ee8266833774bd5"
+        },
+        {
+          "path": "overlays/art/res/8p.png",
+          "bytes": 13671,
+          "sha256": "323d2862d982947a9081d40aea2af7e9c95eec998370b66d83774ea08f41e286"
+        },
+        {
+          "path": "overlays/art/res/9X.png",
+          "bytes": 22700,
+          "sha256": "52c19888b41dba92c5254f51c4275871cac9aec91ece72ec28a31ec0e9a76e4f"
+        },
+        {
+          "path": "overlays/art/res/yj.png",
+          "bytes": 6666,
+          "sha256": "3e69ebb5c65cb12578fc5a0839fc83e47160cc101b5b0921aac28f738c75ffc5"
+        }
+      ]
+    },
+    {
+      "filename": "yagu-original-art.zip",
+      "bytes": 7284854,
+      "sha256": "52cc298db85b7dcd115f8398b49e648b41c208221cfa9be61348b679b0ff2e0c",
+      "entries": [
+        {
+          "path": "crests.png",
+          "bytes": 1839531,
+          "sha256": "d96b4d40c474787653799f73619bfcfa1e1f96410694cd00b4e3cf0016fc5c20"
+        },
+        {
+          "path": "extra_crests.png",
+          "bytes": 1817481,
+          "sha256": "9de729df5e649535ade5a6b13609ebd4bf0d88eb5877d02ea56347de142e7053"
+        },
+        {
+          "path": "launcher_icon.png",
+          "bytes": 1986065,
+          "sha256": "37482b18cde00e000ae17e5425ad14cea031dc6325294a7485f50850fde9ce0c"
+        },
+        {
+          "path": "title_logo.png",
+          "bytes": 1886757,
+          "sha256": "cc1dc126b32b0419481566448ab702aaa271d74cd5dbdc7afcf86e90a1a8a1e3"
+        }
+      ]
+    }
+  ]
 }
